@@ -1,0 +1,137 @@
+/*---------------------------------------/*
+  # SETTINGS
+/*---------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Amaranth&family=Dosis:wght@200&display=swap");
+/*---------------------------------------/*
+  # GENERIC
+/*---------------------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*---------------------------------------/*
+  # ELEMENTS
+/*---------------------------------------*/
+.nav-link {
+  font-family: Arial;
+}
+
+.nav-link:hover {
+  color: #00bc4a !important;
+}
+
+.c-video {
+  background-color: #00bc4a;
+}
+
+.c-text-video {
+  color: #014a2d;
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 2rem;
+  font-family: Amaranth;
+}
+
+.c-carousel-text {
+  background-color: #12312c;
+}
+
+.c-tittlecarousel {
+  color: #00bc4a;
+}
+
+.c-textcarousel {
+  color: white;
+}
+
+.c-onzegoudenkazen {
+  background-image: url("../images/Groendal logo background.png");
+  background-repeat: no-repeat;
+  background-size: 2580px;
+  background-position: center;
+}
+
+.c-bestelling {
+  background-color: #00bc4a;
+}
+
+.c-besteltittle {
+  padding-top: 10rem;
+  color: #014a2d;
+  font-family: Amaranth;
+}
+
+.c-besteltext {
+  padding-top: 2rem;
+  color: #014a2d;
+}
+
+.c-btn {
+  background: none;
+  border: none;
+}
+
+.c-btn:hover {
+  background: none;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #12312c;
+  color: white;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none !important;
+  width: 10rem;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: #12312c;
+  border: none;
+  text-decoration: none !important;
+}
+
+.c-carousel {
+  background-color: #12312c;
+}
+
+.c-carouseltittle {
+  font-family: Amaranth;
+  color: #00bc4a;
+}
+
+.c-carouseltext {
+  font-family: Arial;
+  color: white;
+}
+
+.c-goudenkazentittle {
+  text-align: center;
+  color: #00bc4a;
+  font-family: Amaranth;
+}
+
+.container-fluid {
+  padding: 0rem;
+}
+
+/*---------------------------------------/*
+  # OBJECTS
+/*---------------------------------------*/
+/*---------------------------------------/*
+  # COMPONENTS
+/*---------------------------------------*/
+/*---------------------------------------/*
+  # BOOTSTRAP
+/*---------------------------------------*/
+/*---------------------------------------/*
+  # UTILITIES
+/*---------------------------------------*/
+/*# sourceMappingURL=style.css.map */
