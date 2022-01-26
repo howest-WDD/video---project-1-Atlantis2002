@@ -122,6 +122,63 @@
   padding: 0rem;
 }
 
+.c-nieuwsbrief {
+  background-color: #4d4d4d;
+}
+
+.c-tittle {
+  padding-top: 2rem;
+  font-family: Amaranth;
+  color: white;
+  padding-left: 4rem;
+}
+
+.c-text-inschrijving {
+  font-family: Amaranth;
+  color: #00bc4a;
+  padding-left: 4rem;
+}
+
+.form-control {
+  background-color: #bdbdbd;
+  border: none;
+  margin-left: 4rem;
+  width: 30rem;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #bdbdbd;
+  border: none;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.25rem #00bc4a;
+          box-shadow: 0 0 0 0.25rem #00bc4a;
+}
+
+.btn-secondary {
+  background-color: #00bc4a;
+  color: #12312c;
+  font-family: Amaranth;
+  font-style: italic;
+  border: none;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+}
+
+.btn-secondary:hover {
+  background-color: #12312c;
+  color: #00bc4a;
+  border: none;
+}
+
+.c-howest {
+  padding: 2rem;
+}
+
+.c-facebook {
+  padding: 2rem;
+}
+
 /*---------------------------------------/*
   # OBJECTS
 /*---------------------------------------*/

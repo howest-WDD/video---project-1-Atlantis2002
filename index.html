@@ -129,25 +129,57 @@
         </div>
       </div>
       <div class="c-nieuwsbrief">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-6">
-              <div class="c-adres"><h4>Adres</h4></div>
-              <div class="c-adrestext"><p>Koolzaadstraat 3 8800 Rumbeke</p></div>
+              <div class="c-tittle"><h4>Adres</h4></div>
+              <div class="c-text-inschrijving"><p>Koolzaadstraat 3 8800 Rumbeke</p></div>
 
-              <div class="c-tel"><h4>Tel</h4></div>
-              <div class="c-teltext"><p>0473/29 16 08</p></div>
+              <div class="c-tittle"><h4>Tel</h4></div>
+              <div class="c-text-inschrijving"><p>0473/29 16 08</p></div>
 
-              <div class="c-email"><h4>E-mail</h4></div>
-              <div class="c-emailtext"><p>info@groendal.be</p></div>
+              <div class="c-tittle"><h4>E-mail</h4></div>
+              <div class="c-text-inschrijving"><p>info@groendal.be</p></div>
 
-              <div class="c-openingsuren"><h4>Openingsuren</h4></div>
-              <div class="c-openingsurentext"><p>DO-VRIJ: 14.00-18.00 ZAT: 9.00 -16.00 Zuivelautomaat: 24/24, 7/7</p></div>
+              <div class="c-tittle"><h4>Openingsuren</h4></div>
+              <div class="c-text-inschrijving"><p>DO-VRIJ: 14.00-18.00 ZAT: 9.00 -16.00 Zuivelautomaat: 24/24, 7/7</p></div>
+
+              <div class="c-tittle"><h4>Schrijf je in voor de nieuwbrief!</h4></div>
+
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"></label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Naam" />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail2" class="form-label"></label>
+                  <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Voornaam" />
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleInputEmail3" class="form-label"></label>
+                  <input type="email" class="form-control" id="exampleInputEmail3" placeholder="E-mailadres" />
+                </div>
+
+                <button type="submit" class="btn btn-secondary">Verzend!</button>
+              </form>
             </div>
+            <img class="col-6 c-kaart" src="images/kaart.JPG" alt="kaart" width="843" height="722" />
           </div>
         </div>
       </div>
     </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-between">
+            <img class="c-facebook" src="images/Facebook.png" alt="Facebook" width="117" height="117" />
+            <div class="align-self-end"><p>&copy;Atlantis Devos MIT</p></div>
+            <img class="c-howest" src="images/howest-hogeschool-logo.png" alt="Howest" width="251" height="101" />
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
