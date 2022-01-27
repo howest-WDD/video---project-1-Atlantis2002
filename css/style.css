@@ -35,12 +35,22 @@
   font-family: Amaranth;
 }
 
+.c-video-v {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 4rem;
+}
+
 .c-carousel-text {
   background-color: #12312c;
+  padding-top: 12rem;
+  padding-left: 4rem;
 }
 
 .c-tittlecarousel {
   color: #00bc4a;
+  padding-bottom: 2rem;
 }
 
 .c-textcarousel {
@@ -62,6 +72,7 @@
   padding-top: 10rem;
   color: #014a2d;
   font-family: Amaranth;
+  font-style: italic;
 }
 
 .c-besteltext {
@@ -98,24 +109,46 @@
   text-decoration: none !important;
 }
 
+.btn-primary:focus {
+  background-color: white;
+  color: #12312c;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-decoration: none !important;
+}
+
 .c-carousel {
   background-color: #12312c;
 }
 
-.c-carouseltittle {
+.c-tittlecarousel {
   font-family: Amaranth;
   color: #00bc4a;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: italic;
 }
 
-.c-carouseltext {
+.c-textcarousel {
   font-family: Arial;
   color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 4rem;
 }
 
 .c-goudenkazentittle {
+  padding-top: 4rem;
   text-align: center;
   color: #00bc4a;
   font-family: Amaranth;
+}
+
+.c-besteltext {
+  padding-right: 4rem;
 }
 
 .container-fluid {
@@ -136,7 +169,7 @@
 .c-text-inschrijving {
   font-family: Amaranth;
   color: #00bc4a;
-  padding-left: 4rem;
+  margin-left: 4rem;
 }
 
 .form-control {
@@ -162,13 +195,20 @@
   font-style: italic;
   border: none;
   margin-left: 4rem;
-  margin-bottom: 2rem;
 }
 
 .btn-secondary:hover {
   background-color: #12312c;
   color: #00bc4a;
   border: none;
+}
+
+.btn-secondary:focus {
+  background-color: #12312c;
+  color: #00bc4a;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .c-howest {
