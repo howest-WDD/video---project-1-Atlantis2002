@@ -22,9 +22,19 @@ $spacing-default: 4rem;
   # ELEMENTS
 /*---------------------------------------*/
 
+.navbar-light .navbar-toggler-icon {
+  background-image: url("images/hamburger menu.png");
+}
+
 .nav-link {
   font-family: Arial;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
   &:hover {
+    color: #00bc4a !important;
+  }
+
+  &:focus {
     color: #00bc4a !important;
   }
 }
@@ -33,7 +43,7 @@ $spacing-default: 4rem;
   background-color: #00bc4a;
 }
 
-.c-text-video {
+.c-text__video {
   color: #014a2d;
   text-align: center;
   padding-top: 2rem;
@@ -41,24 +51,29 @@ $spacing-default: 4rem;
   font-family: Amaranth;
 }
 
-.c-video-v {
+.c-video__v {
   margin-left: auto;
   margin-right: auto;
   display: block;
   padding-bottom: 4rem;
+  max-width: 100%;
+  height: auto;
 }
-.c-carousel-text {
+.c-carousel__text {
   background-color: #12312c;
   padding-top: 12rem;
   padding-left: 4rem;
+  padding-right: 4rem;
 }
 
-.c-tittlecarousel {
+.c-tittle__carousel {
   color: #00bc4a;
   padding-bottom: 2rem;
+  font-style: italic;
+  font-family: Amaranth;
 }
 
-.c-textcarousel {
+.c-text__carousel {
   color: white;
 }
 
@@ -68,8 +83,11 @@ $spacing-default: 4rem;
   background-size: 2580px;
   background-position: center;
 }
+
 .c-bestelling {
   background-color: #00bc4a;
+  max-width: 100%;
+  height: auto;
 }
 
 .c-besteltittle {
@@ -77,16 +95,20 @@ $spacing-default: 4rem;
   color: #014a2d;
   font-family: Amaranth;
   font-style: italic;
+  padding-left: 4rem;
 }
 
 .c-besteltext {
   padding-top: 2rem;
   color: #014a2d;
+  padding-left: 4rem;
 }
 
 .c-btn {
   background: none;
   border: none;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
 
   &:hover {
     background: none;
@@ -136,29 +158,31 @@ $spacing-default: 4rem;
   font-family: Arial;
   color: white;
   align-items: center;
-  padding-right: 4rem;
 }
 
 .c-goudenkazentittle {
-  padding-top: 4rem;
+  align-items: center;
   text-align: center;
   color: #00bc4a;
   font-family: Amaranth;
+  padding-bottom: 4rem;
 }
 
 .c-onzegoudenkazen {
+  padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
 .c-besteltext {
   padding-right: 4rem;
 }
+
+.c-bestel {
+  max-width: 100%;
+  height: auto;
+}
 .container-fluid {
   padding: 0rem;
-}
-
-.c-nieuwsbrief {
-  background-color: #4d4d4d;
 }
 
 .c-tittle {
@@ -168,9 +192,9 @@ $spacing-default: 4rem;
   padding-left: 4rem;
 }
 
-.c-text-inschrijving {
+.c-text__inschrijving {
   font-family: Amaranth;
-  color: #00bc4a;
+  color: white;
   margin-left: 4rem;
 }
 
@@ -178,7 +202,6 @@ $spacing-default: 4rem;
   background-color: #bdbdbd;
   border: none;
   margin-left: 4rem;
-  width: 30rem;
 }
 .form-control:focus {
   color: #212529;
@@ -210,13 +233,17 @@ $spacing-default: 4rem;
   }
 }
 
-.c-howest {
-  padding: 2rem;
+.c-nieuwsbrief {
+  background-color: #4d4d4d;
+}
+.c-kaart {
+  max-width: 100%;
+  height: auto;
+}
+.c-footer {
+  padding-top: 2rem;
 }
 
-.c-facebook {
-  padding: 2rem;
-}
 /*---------------------------------------/*
   # OBJECTS
 /*---------------------------------------*/
